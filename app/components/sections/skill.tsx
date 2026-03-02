@@ -18,7 +18,7 @@ const techList = [
 
 export function Skills() {
   return (
-    <section id="skills" className="py-20 md:py-28 border-t">
+    <section id="skills" className="mb-10">
       <Container>
         <div className="max-w-2xl">
           <h2 className="text-3xl font-semibold tracking-tight">
