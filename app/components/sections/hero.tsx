@@ -1,42 +1,63 @@
+import { Github, Linkedin, Mail } from "lucide-react"
 import { Container } from "../layout/container"
 
 export const Hero = () => {
   return (
-    <section id="hero" className="">
+    <section id="hero">
       <Container>
-        <div className="gap-2">
+
+        <div className="flex flex-col gap-4">
           <h1 className="text-4xl md:text-5xl font-bold tracking-tight">
             Ravi Pandey
           </h1>
 
-          <h2 className="mt-1 text-lg font-medium tracking-tight sm:text-xl">
-            Backend-Leaning, Full Stack Developer
+          <h2 className="text-lg font-medium tracking-tight sm:text-xl text-gray-700">
+            Backend-Leaning Full Stack Developer
           </h2>
 
-          <p className="mt-6 max-w-2xl leading-normal text-gray-600">
+          <p className="mt-4 max-w-xl leading-relaxed text-gray-600">
             I build scalable systems and clean user interfaces using
             modern web technologies.
           </p>
         </div>
-      </Container>
 
-      <Container className="ml-1 lg:ml-4">
-        <ul className="flex flex-center gap-6">
+        <ul className="mt-6 flex items-center gap-4 lg:gap-6 text-gray-600">
           <li>
-            i
+            <a
+              href="https://github.com/RaviPandey2002"
+              title="GitHub Profile"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center rounded-full border p-1 lg:p-2 transition hover:border-black hover:text-black"
+            >
+              <Github className="h-5 w-5" />
+            </a>
           </li>
+
           <li>
-            c
+            <a
+              href="https://www.linkedin.com/in/ravi2002pandey/"
+              title="LinkedIn Profile"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center rounded-full border p-1 lg:p-2 transition hover:border-black hover:text-black"
+            >
+              <Linkedin className="h-5 w-5" />
+            </a>
           </li>
+
           <li>
-            o
-          </li>
-          <li>
-            n
+            <a
+              href="mailto:ravi2001pandey@gmail.com"
+              title="Send Email"
+              className="flex items-center justify-center rounded-full border p-1 lg:p-2 transition hover:border-black hover:text-black"
+            >
+              <Mail className="h-5 w-5" />
+            </a>
           </li>
         </ul>
-      </Container>
 
+      </Container>
     </section>
   )
 }
