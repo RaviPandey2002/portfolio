@@ -14,7 +14,7 @@ const techList = [
   {
     icon: Layers3,
     title: "Frontend",
-    summary: "Responsive interfaces with a strong focus on usability, speed, and clean component structure.",
+    summary: "Frontend interfaces built for clarity, performance, and smooth integration with backend-driven product flows.",
     stack: ["React", "Next.js", "TypeScript", "Tailwind CSS"],
     accent: "from-amber-100 via-white to-white",
     iconTone: "bg-amber-500 text-white",
@@ -37,7 +37,7 @@ const techList = [
   },
   {
     icon: Braces,
-    title: "Engineering Habits",
+    title: "Engineering Approach",
     summary: "Code shaped around readability, ownership, and shipping features that stay easy to extend.",
     stack: ["Architecture", "Debugging", "Refactoring", "Performance"],
     accent: "from-rose-100 via-white to-white",
@@ -49,15 +49,15 @@ const projectList = [
   {
     title: "HireHub",
     description:
-      "Full-stack job portal with role-based flows for recruiters and candidates, built around a clean hiring workflow.",
-    tags: "Next.js, Full Stack, RBAC",
+      "Full-stack hiring platform with tailored recruiter and candidate flows, designed to keep job posting, application tracking, and hiring actions clear and efficient.",
+    tags: "Next.js, Full Stack, Auth",
     liveUrl: "https://hire-hub-steel.vercel.app",
     repoUrl: "https://github.com/RaviPandey2002/HireHub",
   },
   {
     title: "Code-Xerox",
     description:
-      "Collaborative code editor with room-based sessions, live code sharing, chat, and video calling for real-time teamwork.",
+      "Real-time collaborative coding platform with room-based sessions, live code sync, chat, and video calling to support fast, shared problem-solving.",
     tags: "JavaScript, Socket.io, PeerJS",
     liveUrl: "https://code-xerox-i8fr.onrender.com/",
     repoUrl: "https://github.com/RaviPandey2002/Code-Xerox",
@@ -65,7 +65,7 @@ const projectList = [
   {
     title: "Expense Management System",
     description:
-      "Expense tracking app for adding, editing, categorizing, and visualizing spending with reporting and auth flows.",
+      "Expense tracking application with authenticated workflows for logging, categorizing, and analyzing spending through clear reporting and day-to-day management flows.",
     tags: "React, Charts, Auth",
     liveUrl: "https://expense-management-system-bice.vercel.app/",
     repoUrl: "https://github.com/RaviPandey2002/Expense-Management-System",
@@ -73,7 +73,7 @@ const projectList = [
   {
     title: "Food Villa",
     description:
-      "React-based food exploration app focused on clean UI composition and core frontend fundamentals without heavy UI frameworks.",
+      "Frontend-focused food discovery app built to showcase reusable UI composition, clean state handling, and responsive React fundamentals without relying on heavy UI frameworks.",
     tags: "React, UI, Netlify",
     liveUrl: "https://my-food-villa-website.netlify.app/",
     repoUrl: "https://github.com/RaviPandey2002/Food-Villa",
@@ -92,7 +92,7 @@ export function Skills() {
       <Container>
         <div className="max-w-2xl">
           <h2 className="text-3xl font-semibold tracking-tight text-zinc-900">
-            Core Stack
+            Technical Strengths
           </h2>
           <p className="mt-4 text-zinc-600">
             Technologies I use to build production-ready, maintainable systems.
@@ -109,7 +109,7 @@ export function Skills() {
                 <div className="flex items-start justify-between gap-4">
                   <div>
                     <div className="text-xs font-semibold uppercase tracking-[0.2em] text-zinc-500">
-                      Specialty
+                      Area
                     </div>
                     <h3 className="mt-3 text-xl font-semibold text-zinc-900">{item.title}</h3>
                   </div>
@@ -122,7 +122,7 @@ export function Skills() {
 
                 <div>
                   <div className="text-xs font-semibold uppercase tracking-[0.2em] text-zinc-500">
-                    Focus
+                    Emphasis
                   </div>
                   <p className="mt-3 text-sm leading-6 text-zinc-600 lg:max-w-none lg:text-[15px]">
                     {item.summary}
@@ -149,7 +149,7 @@ export function Skills() {
             Project Highlights
           </h2>
           <p className="mt-4 text-zinc-600">
-            A few products where I handled architecture and implementation end to end.
+            A few products where I handled architecture and implementation end-to-end.
           </p>
         </div>
 

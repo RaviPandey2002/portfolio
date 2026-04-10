@@ -8,7 +8,7 @@ const highlights = [
 ]
 
 const focusAreas = [
-  "API design, authentication, and RBAC",
+  "API design and authentication",
   "Relational database architecture",
   "Production debugging and performance tuning",
 ]
